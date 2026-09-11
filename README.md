@@ -79,9 +79,37 @@ echo "sdk.dir=/path/to/android-sdk" > local.properties
 # app/build/outputs/apk/debug/app-debug.apk
 ```
 
+### 项目结构
+```
+app/src/main/
+├── java/com/shopmanager/app/
+│   ├── App.kt                    # 应用入口，全局异常处理
+│   ├── MainActivity.kt           # 主 Activity，底部导航
+│   ├── data/                     # Room 数据层（实体/DAO/数据库/仓库）
+│   ├── ui/
+│   │   ├── home/                 # 首页（数据概览 + 利润榜单）
+│   │   ├── products/             # 商品列表（搜索/排序/筛选/视图切换）
+│   │   ├── editor/               # 商品编辑（新增/编辑/图片上传）
+│   │   ├── data/                 # 数据页（备份/恢复/导出）
+│   │   └── common/               # 通用（图片查看器）
+│   ├── adapter/                  # RecyclerView 适配器
+│   └── util/                     # 工具类（图片/备份/CSV/主题/数字）
+└── res/
+    ├── layout/                   # 12 个布局文件
+    ├── drawable/                 # 形状背景 + 矢量图标
+    ├── values/                   # 颜色/字符串/主题/尺寸
+    ├── values-night/             # 深色模式资源
+    ├── mipmap-*/                 # 自适应图标（记事本 + 购物车）
+    └── xml/                      # FileProvider 配置
+```
+
 ## 应用图标
 
 图标主体为一本浅米色圆角记事本，带有装订线和页角翻折细节；封面偏右下位置放置一个圆润的暖红色购物车图标，直观体现"记账记录 + 商品管理"的产品属性。严格遵循安卓自适应图标规范，适配圆形、方形、圆角方形等各种桌面蒙版。
+
+## 已知问题
+
+- **相机首次启动**：首次使用相机拍照时，授予相机权限后可能出现一次崩溃，重新点击相机即可正常使用。后续使用不会再出现此问题。
 
 ## 许可证
 
