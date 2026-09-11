@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="product_images" path="product_images/" />
+    <files-path name="backups" path="backups/" />
+    <cache-path name="exports" path="exports/" />
+    <external-files-path name="external_images" path="product_images/" />
+</paths>

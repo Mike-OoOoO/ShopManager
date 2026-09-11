@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主背景：浅米白 / 极浅暖灰 -->
+    <color name="background">#FAF7F2</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F5F0E8</color>
+
+    <!-- 强调色：暖红色 -->
+    <color name="primary">#E85D4A</color>
+    <color name="primary_dark">#D94F3D</color>
+    <color name="primary_light">#F5B5A8</color>
+    <color name="primary_container">#FDE8E3</color>
+
+    <!-- 文字：深灰为主，避免纯黑 -->
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#999999</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- 辅助色 -->
+    <color name="divider">#EDE8E0</color>
+    <color name="profit_color">#E85D4A</color>
+    <color name="warning_color">#F5A623</color>
+    <color name="error_color">#E53935</color>
+    <color name="success_color">#4CAF50</color>
+
+    <!-- 图标 -->
+    <color name="icon_normal">#888888</color>
+    <color name="icon_selected">#E85D4A</color>
+
+    <!-- 输入框 -->
+    <color name="input_background">#F7F3ED</color>
+    <color name="input_stroke">#E0D8CC</color>
+    <color name="input_stroke_focused">#E85D4A</color>
+
+    <!-- 阴影 -->
+    <color name="shadow_start">#1A000000</color>
+</resources>

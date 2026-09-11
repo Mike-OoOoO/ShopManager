@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深色模式背景 -->
+    <color name="background">#161616</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="surface_variant">#2A2A2A</color>
+
+    <!-- 强调色保持暖红 -->
+    <color name="primary">#E85D4A</color>
+    <color name="primary_dark">#D94F3D</color>
+    <color name="primary_light">#C97A6D</color>
+    <color name="primary_container">#3D2A26</color>
+
+    <!-- 文字 -->
+    <color name="text_primary">#E8E8E8</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="text_hint">#777777</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- 辅助色 -->
+    <color name="divider">#333333</color>
+    <color name="profit_color">#F07B6A</color>
+    <color name="warning_color">#F5A623</color>
+    <color name="error_color">#EF5350</color>
+    <color name="success_color">#66BB6A</color>
+
+    <!-- 图标 -->
+    <color name="icon_normal">#888888</color>
+    <color name="icon_selected">#E85D4A</color>
+
+    <!-- 输入框 -->
+    <color name="input_background">#252525</color>
+    <color name="input_stroke">#3A3A3A</color>
+    <color name="input_stroke_focused">#E85D4A</color>
+
+    <color name="shadow_start">#40000000</color>
+</resources>

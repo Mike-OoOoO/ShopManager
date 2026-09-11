@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.shopmanager.app.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_editor"
+            app:destination="@id/productEditorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.shopmanager.app.ui.products.ProductsFragment"
+        android:label="@string/nav_products"
+        tools:layout="@layout/fragment_products">
+        <action
+            android:id="@+id/action_products_to_editor"
+            app:destination="@id/productEditorFragment" />
+        <action
+            android:id="@+id/action_products_to_image_viewer"
+            app:destination="@id/imageViewerFragment" />
+        <argument
+            android:name="productId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="com.shopmanager.app.ui.data.DataFragment"
+        android:label="@string/nav_data"
+        tools:layout="@layout/fragment_data" />
+
+    <fragment
+        android:id="@+id/productEditorFragment"
+        android:name="com.shopmanager.app.ui.editor.ProductEditorFragment"
+        android:label="@string/add_product"
+        tools:layout="@layout/fragment_editor">
+        <argument
+            android:name="productId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/imageViewerFragment"
+        android:name="com.shopmanager.app.ui.common.ImageViewerFragment"
+        android:label=""
+        tools:layout="@layout/fragment_image_viewer">
+        <argument
+            android:name="imagePath"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

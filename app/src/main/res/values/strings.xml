@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">商品管家</string>
+
+    <!-- 底部导航 -->
+    <string name="nav_home">首页</string>
+    <string name="nav_products">商品</string>
+    <string name="nav_data">数据</string>
+
+    <!-- 首页 -->
+    <string name="home_title">数据概览</string>
+    <string name="stat_total_products">商品总数</string>
+    <string name="stat_avg_profit_rate">平均利润率</string>
+    <string name="stat_inventory_value">库存总价值</string>
+    <string name="stat_estimated_profit">预估总利润</string>
+    <string name="top_profit_title">利润排行榜 TOP 10</string>
+
+    <!-- 商品列表 -->
+    <string name="products_title">商品管理</string>
+    <string name="search_hint">搜索商品名称…</string>
+    <string name="empty_products">还没有商品，点击右下角添加</string>
+    <string name="fab_add">添加商品</string>
+
+    <!-- 排序/筛选 -->
+    <string name="sort_by">排序方式</string>
+    <string name="sort_time_desc">最新添加</string>
+    <string name="sort_price_asc">价格从低到高</string>
+    <string name="sort_price_desc">价格从高到低</string>
+    <string name="sort_profit_desc">利润从高到低</string>
+    <string name="sort_profit_asc">利润从低到高</string>
+    <string name="filter_category">商品分类</string>
+    <string name="all_categories">全部分类</string>
+    <string name="view_card">卡片视图</string>
+    <string name="view_list">简洁列表</string>
+
+    <!-- 商品编辑 -->
+    <string name="add_product">新增商品</string>
+    <string name="edit_product">编辑商品</string>
+    <string name="product_image">商品主图</string>
+    <string name="take_photo">拍照</string>
+    <string name="choose_from_album">从相册选择</string>
+    <string name="view_large">查看大图</string>
+    <string name="product_name">商品名称 *</string>
+    <string name="product_name_hint">请输入商品名称</string>
+    <string name="product_desc">商品介绍</string>
+    <string name="product_desc_hint">填写商品详细描述…</string>
+    <string name="cost_price">进价（成本价）</string>
+    <string name="sale_price">售价（销售价）</string>
+    <string name="profit_amount">利润额</string>
+    <string name="profit_rate">利润率</string>
+    <string name="category">商品分类</string>
+    <string name="category_hint">如：食品、日用品、服装…</string>
+    <string name="stock">库存数量</string>
+    <string name="remark">备注信息</string>
+    <string name="remark_hint">其他需要记录的信息…</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+
+    <!-- 快捷操作 -->
+    <string name="quick_actions">快捷操作</string>
+    <string name="confirm_delete">确认删除</string>
+    <string name="confirm_delete_msg">确定要删除「%1$s」吗？此操作不可撤销。</string>
+
+    <!-- 数据/备份 -->
+    <string name="data_title">数据与备份</string>
+    <string name="backup_section">数据备份</string>
+    <string name="backup_now">一键备份</string>
+    <string name="backup_desc">将全部商品数据与图片打包为备份文件</string>
+    <string name="restore_backup">从备份恢复</string>
+    <string name="restore_desc">选择本地备份文件，恢复商品信息</string>
+    <string name="export_csv">导出 CSV</string>
+    <string name="export_csv_desc">将商品列表导出为 CSV 表格，可保存或分享</string>
+    <string name="settings_section">应用设置</string>
+    <string name="dark_mode">深色模式</string>
+    <string name="dark_mode_desc">切换深色 / 浅色主题</string>
+    <string name="about">关于</string>
+    <string name="about_version">版本 %1$s</string>
+    <string name="about_desc">商品管家 · 纯本地单机版\n所有数据仅存储在您的设备中，无需联网、无需登录</string>
+
+    <!-- 提示 -->
+    <string name="save_success">保存成功</string>
+    <string name="delete_success">删除成功</string>
+    <string name="backup_success">备份成功：%1$s</string>
+    <string name="restore_success">恢复成功，共导入 %1$d 条商品</string>
+    <string name="export_success">导出成功：%1$s</string>
+    <string name="name_required">请输入商品名称</string>
+    <string name="price_invalid">请输入有效的价格</string>
+    <string name="permission_camera_needed">需要相机权限才能拍照</string>
+    <string name="image_compress_failed">图片处理失败，请重试</string>
+    <string name="backup_file_invalid">备份文件格式不正确</string>
+    <string name="confirm_override">恢复将覆盖当前所有数据，是否继续？</string>
+    <string name="currency_symbol">¥</string>
+    <string name="unit_item">件</string>
+    <string name="no_category">未分类</string>
+</resources>

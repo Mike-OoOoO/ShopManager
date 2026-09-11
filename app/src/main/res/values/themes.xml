@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.ShopManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="materialAlertDialogTheme">@style/AlertDialog.ShopManager</item>
+        <item name="bottomSheetDialogTheme">@style/BottomSheet.ShopManager</item>
+    </style>
+
+    <style name="AlertDialog.ShopManager" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:windowBackground">@drawable/bg_dialog</item>
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="BottomSheet.ShopManager" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.ShopManager.BottomSheet</item>
+    </style>
+
+    <style name="Widget.ShopManager.BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="backgroundTint">@color/surface</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeTopRight">24dp</item>
+    </style>
+
+    <!-- 主按钮 -->
+    <style name="Button.ShopManager.Primary" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="elevation">2dp</item>
+    </style>
+
+    <!-- 次要按钮 -->
+    <style name="Button.ShopManager.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">1.5dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 文本按钮 -->
+    <style name="Button.ShopManager.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <!-- 输入框样式 -->
+    <style name="EditText.ShopManager" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">14dp</item>
+    </style>
+
+    <!-- 基础文本样式 -->
+    <style name="Text.ShopManager" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- 卡片标题 -->
+    <style name="Text.ShopManager.Title">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.ShopManager.Body">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.ShopManager.Profit">
+        <item name="android:textColor">@color/profit_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

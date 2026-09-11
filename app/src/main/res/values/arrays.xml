@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort_options">
+        <item>@string/sort_time_desc</item>
+        <item>@string/sort_price_asc</item>
+        <item>@string/sort_price_desc</item>
+        <item>@string/sort_profit_desc</item>
+        <item>@string/sort_profit_asc</item>
+    </string-array>
+
+    <string-array name="sort_option_values">
+        <item>time_desc</item>
+        <item>price_asc</item>
+        <item>price_desc</item>
+        <item>profit_desc</item>
+        <item>profit_asc</item>
+    </string-array>
+</resources>
