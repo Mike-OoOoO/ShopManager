@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 记事本主体：浅米色圆角 -->
+    <path
+        android:fillColor="#F2E2CC"
+        android:pathData="M24,18 L84,18 Q90,18 90,24 L90,84 Q90,90 84,90 L24,90 Q18,90 18,84 L18,24 Q18,18 24,18 Z" />
+
+    <!-- 记事本左侧装订区（稍深） -->
+    <path
+        android:fillColor="#E5D0B0"
+        android:pathData="M18,24 Q18,18 24,18 L32,18 L32,90 L24,90 Q18,90 18,84 Z" />
+
+    <!-- 装订线：横向短线条 -->
+    <path
+        android:strokeColor="#C9AE85"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M22,30 L28,30 M22,40 L28,40 M22,50 L28,50 M22,60 L28,60 M22,70 L28,70 M22,80 L28,80" />
+
+    <!-- 页角翻折（右上角） -->
+    <path
+        android:fillColor="#E5D0B0"
+        android:pathData="M78,18 L90,18 L90,30 Q90,30 84,30 L78,30 Z" />
+    <path
+        android:fillColor="#D4BA92"
+        android:pathData="M78,18 L90,18 L90,22 L82,22 Z" />
+
+    <!-- 记事本页面横线（装饰） -->
+    <path
+        android:strokeColor="#D8C8A8"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M38,34 L72,34 M38,42 L68,42" />
+
+    <!-- ===== 购物车（暖红色，封面偏右下） ===== -->
+    <!-- 车把手 -->
+    <path
+        android:strokeColor="#E85D4A"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M44,54 Q42,50 40,48" />
+
+    <!-- 车篮主体 -->
+    <path
+        android:fillColor="#E85D4A"
+        android:pathData="M44,54 L47,54 L52,72 L74,72 Q78,72 77,67 L72,56 Q71,54 69,54 Z" />
+
+    <!-- 车篮内部高光 -->
+    <path
+        android:fillColor="#F07B6A"
+        android:pathData="M48,57 L68,57 L66,62 L51,62 Z" />
+
+    <!-- 车轮（外圈） -->
+    <path
+        android:fillColor="#D94F3D"
+        android:pathData="M56,79 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+    <path
+        android:fillColor="#D94F3D"
+        android:pathData="M72,79 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+
+    <!-- 车轮（内圈高光） -->
+    <path
+        android:fillColor="#F07B6A"
+        android:pathData="M56,79 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    <path
+        android:fillColor="#F07B6A"
+        android:pathData="M72,79 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+</vector>
